@@ -7,7 +7,7 @@
  * Buatlah sebuah proses yang akan mengeluarkan output provider email yang digunakan oleh user.
  *
  * Contoh:
- *   - Input  : idaz@enigmacamp.com
+ *   - Input  : jhon@development.com
  *   - Output : Your email provider is enigmacamp
  *     (tidak menggunakan .com di belakang)
  *

@@ -9,7 +9,7 @@
  * Contoh:
  *    Input  : jhon@development.com
  *    Output : Your email provider is enigmacamp
-      (tidak menggunakan .com di belakang)
+ *     (tidak menggunakan .com di belakang)
       
  * RULES:
  *    Tidak diperbolehkan menggunakan built-in function:

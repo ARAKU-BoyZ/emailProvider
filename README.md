@@ -18,7 +18,7 @@
 
 
  * JAWABAN:
-function emailProvider(input) { // fungsi emailProvider
+(function emailProvider(input) { // fungsi emailProvider
     let output = "" // Penampung Kata yang di cari
     let flag = false // Penanda Looping
     for (let char of input) { // Tolong looping char dari input
@@ -35,7 +35,7 @@ function emailProvider(input) { // fungsi emailProvider
     }
     // return output // kembalikan output
 }
-console.log(emailProvider('jhon@development.com')) // output: 'development'
+console.log(emailProvider('jhon@development.com')) // output: 'development')
 
 
 function emailProvider(input) { // fungsi emailProvider

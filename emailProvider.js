@@ -19,44 +19,16 @@
 
 
 
+// No.1
 // input = 'idaz@enigmacamp.com'
 // proses ???
-function emailProvider(input) { // fungsi emailProvider
-    let output = "" // Penampung Kata yang di cari
-    let flag = false // Penanda Looping
-    for (let char of input) { // Tolong looping char dari input
-        if (char === "@") { // jika char bernilai @
-            flag = true // maka ubah flag menjadi true
-            continue // lanjutkan looping
-        }
-        if (char === ".") { // jika char bernilai .(titik)
-            break // maka hentikan looping
-        }
-        if (flag) { // Jika char bernilai true
-            output += char // Maka tambahkan output dengan char
-        }
-    }
-    // return output // kembalikan output
-}
-console.log(emailProvider('idaz@enigmacamp.com')) // output: 'enigmacamp'
 
-// input = 'idaz@xyz.com'
+// output: enigma
+
+
+
+// No. 2
+// input: 'idaz@xyz.com'
 // proses ???
-function emailProvider(input) { // fungsi emailProvider
-    let output = "" // Penampung Kata yang di cari
-    let flag = false // Penanda Looping
-    for (let char of input) { // Tolong looping char dari input
-        if (char === "@") { // jika char bernilai @
-            flag = true // maka ubah flag menjadi true
-            continue // lanjutkan looping
-        }
-        if (char === ".") { // jika char bernilai .(titik)
-            break // maka hentikan looping
-        }
-        if (flag) { // Jika char bernilai true
-            output += char // Maka tambahkan output dengan char
-        }
-    }
-    return output // kembalikan output
-}
-console.log(emailProvider('idaz@xyz.com')) // output: 'xyz'
+
+// output: xyz
